@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Team Builder App</h1>
+      <h1>Join the dang Team!</h1>
       <Form values={values} change={onChange} submit={onSubmit} />
       {members.map((member, idx) => {
         return (

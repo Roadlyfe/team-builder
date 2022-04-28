@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f531ad;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-size: 4em;
+  color: rgb(181, 235, 118);
+}
+
+label {
+  color: deeppink;
+  font-size: 2em;
+}
+
+* {
+  background-color: #61dafb;
 }

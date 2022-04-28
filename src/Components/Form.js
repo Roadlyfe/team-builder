@@ -12,8 +12,8 @@ const Form = (props) => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <label>
-        Name
+      <div><label>
+        Name: 
         <input
           placeholder="Name goes here!"
           value={props.values.name}
@@ -21,8 +21,10 @@ const Form = (props) => {
           onChange={handleChange}
         />
       </label>
+      </div>
+      <div>
       <label>
-        EMail
+        Email: 
         <input
           placeholder="Enter Email"
           value={props.values.email}
@@ -30,8 +32,10 @@ const Form = (props) => {
           onChange={handleChange}
         />
       </label>
+      </div>
+      <div>
       <label>
-        Role
+        Role: 
         <input
           placeholder="What is your role"
           value={props.values.role}
@@ -39,7 +43,10 @@ const Form = (props) => {
           onChange={handleChange}
         />
       </label>
-      <input type="submit" value="Submit for team builder!" />
+      </div>
+      <div>
+      <input type="submit" value="Click to join the team!" />
+      </div>
     </form>
   );
 };
